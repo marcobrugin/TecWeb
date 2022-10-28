@@ -1,3 +1,4 @@
+/* PARTI PRINCIPALI */
 *{
     padding: 0em;
     margin: 0em;
@@ -30,6 +31,7 @@ html{
     background-image: url("images/bg.webp");
     background-size: contain; /* si adatta alla dimensione dello schermo*/
 }
+/*HEADER*/
 header{
     color: var(--txtcolor);
     text-align: center;
@@ -48,6 +50,7 @@ header >h2{
     padding: 0.5em 0em 0.5em 1em;
     border: 1px solid #000;
 }
+/*MENU*/
 #menu{
     float:left;
     font-size: 1.3em;
@@ -63,35 +66,34 @@ header >h2{
 #menu ul{
     list-style-type: none;
 }
+/*ASIDE*/
 aside{
     float:right;
     width: 20%; 
-    padding: 0.3em;
-    margin: 0.4em;
+    padding: 0.5em;
+    margin:0.4em;
     background-color: #0365AE;
 }
 aside > h2{
     background-color:var(--newscolor) ;
     color:var(--contentxtcolor);
 }
+/*MENU*/
 main{
    color:var(--newstxtcolor);
    background-color: var(--contentbgcolor);
    margin-left: 28%;
-   width: 50%;
+   width: 71%;
+   padding: 0.25em;
+   border: 1px solid #000;  
 }
+/*FOOTER*/
 footer{
     background-color: var(--breadcolor);
     color:var(--txtcolor);
     text-align: center;
-    padding: 1.0em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;   
+    padding: 1.0em;     
 }
 footer p{
     display:inline;
-}
-#aside{
-    margin-left: 28%;
-    background-color: var(--contentbgcolor);
 }
