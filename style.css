@@ -35,8 +35,9 @@ html{
 header{
     color: var(--txtcolor);
     text-align: center;
-    padding: 1.0em;
+    padding: 0.9em;
     padding-top: 0.7em;
+    border: 1px solid #000;
 }
 header >h2{
     font-size: 1.8em;
@@ -63,6 +64,12 @@ header >h2{
 #menu a:visited{
     color:var(--visitedcolor);
 }
+#breadcrumb a:link{
+    color:var(--linkcolor);
+}
+#breadcrumb a:visited{
+    color:var(--visitedcolor);
+}
 #menu ul{
     list-style-type: none;
 }
@@ -83,9 +90,15 @@ main{
    color:var(--newstxtcolor);
    background-color: var(--contentbgcolor);
    margin-left: 28%;
-   width: 71%;
-   padding: 0.25em;
+   width: 66,5%;
+   padding: 1.75em;
    border: 1px solid #000;  
+}
+main h1 {
+ padding: 0.7em;
+ padding-top: 00.1em;
+ text-align: center;
+ line-height: 1.5em;
 }
 /*FOOTER*/
 footer{
