@@ -1,0 +1,28 @@
+/*cosa ci va bene e cosa va cambiato*/
+header{
+    background: none;
+}
+header h1{
+    line-height: 1em;
+    font-size: 4em;
+}
+#menu{
+    float: none;
+    width: 90%;
+    padding-top: 0.5em;
+}
+main{
+    margin-left: 0em;
+}
+aside{
+    float: none;
+    width: auto; /* gestisce lui come vuole */
+    margin: 0em;
+    padding: 0.3em;
+}
+footer img{
+    width: 20%;
+}
+footer{
+    display: flex;
+}
