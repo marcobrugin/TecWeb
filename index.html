@@ -24,13 +24,15 @@
                 La pallavolo maschile italiana
             </h2>
         </header>
-        <nav id="breadcrumb">
+        <nav id="breadcrumb" aria-label="percorso">
             <p>
                 Ti trovi in: <span lang="en">Home</span>
             </p>
         </nav>
         <!--Il pallone da pallavolo lo aggiungerò con un servizio css quindi mi serve un id al primo elemento-->
-        <nav id="menu">
+        <a class="aiuti" href="#contenuto">Salta al contenuto</a>
+        <a class="aiuti" href="#news">Salta alle Ultime Notizie</a>
+        <nav id="menu" aria-label="menu del sito">
             <ul>
                 <li id="currentLink" lang="en"> <!--Non metto link per non creare perdita di cognizione nell'utente finale-->
                     Home
@@ -47,7 +49,7 @@
             </ul>
         </nav>
         
-        <aside>
+        <aside id="news">
             <h2> Ultime News</h2>
             <dl>
                 <dt><time datetime="2022-10-02">2 ottobre 2022</time></dt>
@@ -69,7 +71,7 @@
             </dl><!--End ofdefinition list-->
         </aside>
     
-        <main>
+        <main id="contenuto">
             <h1>
                 Campionato mondiale 2022
             </h1>

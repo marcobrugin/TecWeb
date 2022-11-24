@@ -52,7 +52,8 @@ header{
     text-align: center;
     padding: 1em;
     padding-top: 0.7em;
-    border: 1px solid var(--contentxtcolor);
+    margin:0.5em;
+    border: 1px  var(--contentxtcolor);
     background: url("images/giannellipalleggio.jpg") right bottom no-repeat,
                 url("images/michielettocoppa.jpg") left top no-repeat;
     background-size: 20%,20%;
@@ -97,8 +98,8 @@ header >h2{
 #menu{
     grid-area: m;
     font-size: 1.3em;
-    padding: 0.8em;
-    width: 25%; /* la somma non deve fare 100 per gli effetti degli arrotondamenti */
+    padding: 1em;
+    line-height: 1.5em; /* la somma non deve fare 100 per gli effetti degli arrotondamenti */
 }
 #menu a:link{
     color:var(--linkcolor);
@@ -218,4 +219,32 @@ footer p{
     display:inline;
     font-style: italic;
     font-size: 0.8em;
+}
+.aiuti{
+position: absolute;
+height: 1px;
+width: 1px;
+overflow: hidden;
+clip: rect(1px, 1px, 1px, 1px);
+}
+thead,tfoot{
+background-color: var(--breadcolor);
+color: #FFF;
+}
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+table{
+    width: 95%;
+}
+th,td{
+    padding: 0.5em;
+}
+caption{
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 0.7em;
 }
